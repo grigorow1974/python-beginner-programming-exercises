@@ -9,11 +9,7 @@ def spin_chamber():
 # ❌ ⬆ DON'T CHANGE THE CODE ABOVE ⬆ ❌
 def fire_gun():
 	# ✅ ↓ your code here ↓ ✅
-	if random.randint(1,6) == spin_chamber():
-		return "You are Dead!"
-	else:
-		return "Keep playin!"
-	
+	return None
 
 
 print(fire_gun())
